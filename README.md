@@ -1,3 +1,5 @@
-# Maths-Website-HTML-CSS-
+# Building Responsive from Scratch
+This is a responsive website build from the scratch. 
 
-This is a math webstie that I created to improve my HTML and CSS on this project. 
+This is to see how far i have come from css
+
