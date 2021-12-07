@@ -1,0 +1,118 @@
+body {
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header,section,footer {
+    padding: 20px 0;
+}
+
+.container {
+    max-width: 1200px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.insta {
+    background-color: #e0fbfc;
+}
+
+footer {
+    background-color: #3d5a80;
+}
+
+header {
+    background-color: #293241;
+    color: #ffffff;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+.card {
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+.resize-me {
+    width: 40%;
+    height: 100%;
+}
+
+.resize {
+
+
+}
+
+/* Typography */
+
+h1 {
+
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 3rem;
+    margin-bottom: 0;
+}
+
+h2{
+
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    margin-top: 0;
+}
+
+h3 {
+    font-size: 2rem;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.center-text{
+    text-align: center;
+}
+
+
+/* Layout */
+
+
+.flex-wrapper {
+    display: flex;
+    gap: 1rem;
+}
+
+.grid-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+
+
+/* media queries */
+@media (max-width:700px){
+
+    .flex-wrapper {
+        flex-direction: column;
+        gap: 4rem;
+
+    }
+
+    .resize-me {
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 900px) {
+    .grid-wrapper{
+        
+        grid-template-columns: 1fr;
+
+    }
+
+    
+    
+}
+    
